@@ -4,7 +4,16 @@ import random
 import json
 from datetime import date
 
-TOKEN = "8630810659:AAFFxt-FK8iNiFPOrZklEzMxqmB1050SkLk"
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv()
+
+
+TOKEN = os.getenv("TOKEN")
+print("TOKEN =", TOKEN)
+
 
 motivations = [
     "Discipline beats motivation.",
