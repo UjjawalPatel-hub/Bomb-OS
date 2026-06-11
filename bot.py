@@ -4,7 +4,7 @@ import random
 import json
 from datetime import date
 
-TOKEN = "8630810659:AAH27QFfpoyeaarwnHEmd3MVZFg039_l6Fs"
+TOKEN = "8630810659:AAFFxt-FK8iNiFPOrZklEzMxqmB1050SkLk"
 
 motivations = [
     "Discipline beats motivation.",
